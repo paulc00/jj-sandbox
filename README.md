@@ -23,9 +23,13 @@
 
 - TODO
 
+This is where we'll describe all the faculous features of our app.
+
 ## Requirements
 
 - TODO
+
+In here we'll add any dependencies our app needs.
 
 ## Installation
 
@@ -35,9 +39,13 @@ You can install _Jujutsu Sandbox_ via [pip] from [PyPI]:
 $ pip install jj-sandbox
 ```
 
+*We'll have to publish to PyPI in order to support this*
+
 ## Usage
 
 Please see the [Command-line Reference] for details.
+
+*We'll need to create the read-the-docs page for this.*
 
 ## Contributing
 
