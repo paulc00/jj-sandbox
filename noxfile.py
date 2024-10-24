@@ -9,6 +9,8 @@ from textwrap import dedent
 import nox
 
 
+# It seems that nox poetry changed Session to session at some point
+# or vice-versa
 try:
     from nox_poetry import Session
     from nox_poetry import session
@@ -22,6 +24,7 @@ except ImportError:
     raise SystemExit(dedent(message)) from None
 
 
+# Global vars
 package = "jj_sandbox"
 python_versions = ["3.10", "3.9", "3.8", "3.7"]
 nox.needs_version = ">= 2021.6.6"
@@ -36,6 +39,7 @@ nox.options.sessions = (
 )
 
 
+# Functions
 def activate_virtualenv_in_precommit_hooks(session: Session) -> None:
     """Activate virtualenv in hooks installed by pre-commit.
 
