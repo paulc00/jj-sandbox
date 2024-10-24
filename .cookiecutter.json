@@ -1,0 +1,13 @@
+{
+  "_template": "cookiecutter-hypermodern-python/",
+  "author": "Paul Conway",
+  "copyright_year": "2024",
+  "development_status": "Development Status :: 1 - Planning",
+  "email": "paulc00@gmail.com",
+  "friendly_name": "Jujutsu Sandbox",
+  "github_user": "paulc00",
+  "license": "MIT",
+  "package_name": "jj_sandbox",
+  "project_name": "jj-sandbox",
+  "version": "0.0.0"
+}
