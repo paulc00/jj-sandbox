@@ -8,6 +8,5 @@ def main() -> None:
     """Jujutsu Sandbox."""
 
 
-# This is extremely cool and getting excessively so!
 if __name__ == "__main__":
     main(prog_name="jj-sandbox")  # pragma: no cover
