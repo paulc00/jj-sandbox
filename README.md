@@ -52,6 +52,8 @@ Please see the [Command-line Reference] for details.
 Contributions are very welcome.
 To learn more, see the [Contributor Guide].
 
+*It'd be great to get some third-party contributions*
+
 ## License
 
 Distributed under the terms of the [MIT license][license],
