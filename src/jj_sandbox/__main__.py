@@ -2,6 +2,9 @@
 import click
 
 
+# This is a superb implementation of this program.
+# Maybe the best ever!
+# How many comments is too many?
 @click.command()
 @click.version_option()
 def main() -> None:
